@@ -1,0 +1,38 @@
+{
+    "sports" : [
+        {
+            "title": "Basketball Tournament",
+            "description": "Participated in a local basketball tournament",
+            "photoUrl": "https://www.spookynooksports.com/hubfs/basketball-court-1.jpg",
+            "alt": "Basketball tournament photo"
+        },
+
+        {
+            "title": "Cycling Adventure",
+            "description": "Went on a cycling adventure through scenic routes",
+            "photoUrl": "https://cdn10.phillymag.com/wp-content/uploads/sites/3/2021/03/bike-trails-philadelphia-guide.jpg",
+            "alt": "Cycling adventure photo"
+          },
+
+          {
+            "title": "Football Game",
+            "description": "NFL Kicker Kicking Winning Goal",
+            "photoUrl": "https://static01.nyt.com/images/2022/10/19/sports/19tanier1-print/19tanier-4-videoSixteenByNine3000.jpg",
+            "alt": "NFL Kicker"
+          },
+
+          {
+            "title": "Baseball Game",
+            "description": "Home Run",
+            "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mookie_Betts_hitting_the_ball_%2836478781664%29.jpg",
+            "alt": "It's outttaaa here"
+          },
+
+          {
+            "title": "Soccer",
+            "description": "GOAL",
+            "photoUrl": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/QOAYSBDOTNMHLM37EBHXTXOPGU.jpg",
+            "alt": "It's outttaaa here"
+          }
+        ]
+}
