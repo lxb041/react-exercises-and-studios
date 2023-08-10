@@ -4,21 +4,17 @@ import React from "react";
 
 let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
 
+function RateARecipe(props) {
 
 function GiveRating(props) {
   return <h3>{stars[props.rating -1]}</h3>
 }
 
+const isValidNum = props.rating > 0 && props.rating < 6;
 
-function RateARecipe(props) {
-  return (
-    <div>
-      {props.rating >= 1 && props.rating <= 5 ? (
-        <GiveRating rating={props.rating} />
-      ) : null}
-    </div>
-  );
-}
+  return isValidNum ? <GiveRating /> : null;
+  
+};
     
     
 
